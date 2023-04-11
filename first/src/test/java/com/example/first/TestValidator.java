@@ -21,8 +21,13 @@ public class TestValidator {
 
 
     @Test
-    void testIsEmailValid() {
+    void testIsEmailValid1() {
         Assertions.assertTrue(Validator.isEmailValid(validEmail1));
+        Assertions.assertTrue(Validator.isEmailValid(validEmail2));
+    }
+    
+    @Test
+    void testIsEmailValid2() {
         Assertions.assertTrue(Validator.isEmailValid(validEmail2));
     }
 
@@ -32,8 +37,11 @@ public class TestValidator {
     }
 
     @Test
-    void testIsPhoneNumber() {
+    void testIsPhoneNumber1() {
         Assertions.assertTrue(Validator.isPhoneNumberValid(validPh1));
+    }
+    @Test
+    void testIsPhoneNumber2() {
         Assertions.assertTrue(Validator.isPhoneNumberValid(validPh2));
     }
 
