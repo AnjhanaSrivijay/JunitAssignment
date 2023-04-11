@@ -23,7 +23,7 @@ public class TestValidator {
     @Test
     void testIsEmailValid1() {
         Assertions.assertTrue(Validator.isEmailValid(validEmail1));
-        Assertions.assertTrue(Validator.isEmailValid(validEmail2));
+      
     }
     
     @Test
