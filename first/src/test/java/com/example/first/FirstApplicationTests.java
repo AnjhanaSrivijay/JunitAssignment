@@ -17,11 +17,16 @@ class FirstApplicationTests {
 	void positiveTestAddition() {
 		Assertions.assertEquals(a+b, cal.add(a,b));
 	}
-
+	
 	@Test
 	void testNegative() {
 		int c = a-b;
 		Assertions.assertNotEquals(c, cal.add(a,b));
+	}
+
+	@Test
+	void testSubtract() {
+		int c = a-b;
 		Assertions.assertEquals(c, cal.subtract(a,b));
 	}
 
