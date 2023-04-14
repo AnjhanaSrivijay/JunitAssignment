@@ -18,7 +18,7 @@ public class TestValidator {
     String invalidPh = "93940djd0";
     String invalidPh1= " ";
     String invalidPh2 = "09878654321234";
-    String invalidPh3 = "06789245ej";
+    String invalidPh3 = "aratihaejj";
     String phNumberStartWithout0 = "759494944";
     String phNumberLessThan6 = "01234";
     @Test
